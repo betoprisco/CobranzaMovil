@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del tarjetahabiente:" />
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapCharacters"
+                android:textSize="18sp">
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo de Tarjeta:" />
+
+            <EditText
+                android:id="@+id/txtTipoTarjeta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="Visa/MasterCard"
+                android:textSize="18sp">
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Número de Tarjeta:" />
+
+            <EditText
+                android:id="@+id/txtNumTarjeta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="16"
+                android:textSize="18sp" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha de Expiración:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/txtFecha"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="05"
+                    android:textSize="18sp"></EditText>
+
+                <EditText
+                    android:id="@+id/txtanio"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="21"
+                    android:textSize="18sp"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dígitos de Verificación:" />
+
+            <EditText
+                android:id="@+id/txtDigVerificacion"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:maxLength="3"
+                android:textSize="18sp">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_ProcAbono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Procesar Abono" >
+            </Button>
+
+
+
+            <EditText
+                android:id="@+id/TxtIdCliente"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="EditText"
+                android:visibility="invisible"
+                android:textSize="18sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/txt_PagoReq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="EditText"
+                android:textSize="18sp"></EditText>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

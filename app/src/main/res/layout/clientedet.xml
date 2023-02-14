@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/widget0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/widget38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/widget39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/lbl_cli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cliente:"/>
+            <TextView android:id="@+id/txtnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE:"/>
+
+            <TextView android:id="@+id/lbl_Dir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección:"/>
+            <TextView android:id="@+id/txtdireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIRECCION"/>
+
+            <TextView android:id="@+id/lbl_saldoV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saldo V:"/>
+            <TextView android:id="@+id/txtsaldov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SALDO V"/>
+
+            <TextView android:id="@+id/lbl_periodosV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Periodos V:"/>
+            <TextView android:id="@+id/txtperiodvencid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PERIODOS V"/>
+
+            <TextView android:id="@+id/lbl_LetrasV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Letras V:"/>
+            <TextView android:id="@+id/txtnumletvenc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LETRAS V"/>
+
+            <TextView android:id="@+id/lbl_LetrasV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ult Pago:"/>
+            <TextView android:id="@+id/txtultpago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ULT PAGO:"/>
+
+            <Button
+                android:id="@+id/btn_AgregaComen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Comentario">
+            </Button>
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Moratorios:">
+            </TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txt_Mora"
+                android:text="Mora">
+            </TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Requerido:"
+                android:id="@+id/lbl_PagReq">
+            </TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txt_Req"
+                android:text="Requerido">
+            </TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txtultAbono" android:text="UltAbono:"
+                android:visibility="invisible">
+            </TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ult Abono:"
+                android:id="@+id/lbl_UltAbono"
+                android:visibility="invisible">
+            </TextView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+

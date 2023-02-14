@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/text_color" >
+
+    <LinearLayout
+        android:id="@+id/widget30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustID:"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Reimpresion_lbl_custid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/widget35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente:"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Reimpresion_lbl_Cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/widget37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abono:"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Reimpresion_lbl_Abono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textColor="@color/back_color"
+            android:textStyle="bold" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/widget39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Envio:"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Reimpresion_lbl_StatusEnvio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/back_color" >
+
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

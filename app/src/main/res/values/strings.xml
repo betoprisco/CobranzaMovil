@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Cobranza Móvil 2.9.2.1 - JAPP</string>
+    <string name="app_version">2.9.2.1 - JAPP</string>
+    <string name="login_imagen">Logotipo EyMAS </string>
+    <string name="login_usuario">Usuario: </string>
+    <string name="login_password">Contraseña:</string>
+    <string name="login_aceptar">Iniciar Sesión</string>
+    <string name="login_descargar">Descargar Usuarios</string>
+    <string name="dialog_limpiar_datos">Esta acción eliminará todas las gestiones,abonos, direcciones alternas y decomisos actuales que no hayan sido enviados al servidor,
+        ¿continuar?</string>
+    <string name="dialog_continuar">Continuar</string>
+    <string name="dialog_salir">Cancelar</string>
+    <string name="dialog_title">ADVERTENCIA</string>
+    <string name="texto_cliente">Cliente:</string>
+    <string name="Titulo_Letras_del_cliente">Letras del cliente</string>
+    <string name="texto_custid">CustId:</string>
+    <string name="texto_LetrasV">Letras V:</string>
+    <string name="texto_LetrasT">Letras Total:</string>
+    <string name="texto_mora">Moratorio:</string>
+    <string name="texto_letrasv">Letras V:</string>
+    <string name="texto_periodos">Periodos:</string>
+    <string name="texto_UltPago">Ult Pago:</string>
+    <string name="texto_PagoRequerido">P. Requerido:</string>
+    <string name="textoLiquide">Liquide con:</string>
+    <string name="noInfo">Sin Información.</string>
+    <string name="textoUltAsig">Última Actualización: </string>
+    <string name="textoPerspectiva">Acción: </string>
+    <string name="textoComentario">Comentario: </string>
+    <string name="textoFechaUpd">Fecha Alta: </string>
+    <string name="textoFechaSeg">Fecha Seg: </string>
+    <string name="textoMonto">Monto: </string>
+    <string name="texto_VerLetras">Ver letras del cliente</string>
+    <string name="texto_Convenio">Convenio Cliente</string>
+    <string name="textoVerReferencias">Ver Referencias</string>
+    <string name="textoVerCompras">Ver Artículos</string>
+    <string name="textoImprimirAviso">Imprimir Aviso</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_comentario">Comentario </string>
+    <string name="menu_abono_efec">Abono Efectivo </string>
+    <string name="menu_abono_tarj">Abono Tarjeta </string>
+    <string name="menu_ir_inicio">Ir a Inicio </string>
+    <string name="menu_imprimir">Imprimir </string>
+    <string name="title_activity_actividad__letras">Actividad_Letras</string>
+
+    <!--IMPRESORA-->
+    <string name="msg_read_encrypted_card">Read encrypted card</string>
+    <string name="msg_paper_ready">Paper ready</string>
+    <string name="msg_no_paper">No paper</string>
+    <string name="msg_overheated">Overheated</string>
+    <string name="msg_low_battery">Low battery</string>
+    <string name="print_self_test">Imprimir</string>
+    <string name="print_text">Imprimir Ahora</string>
+    <string name="print_image">Print image</string>
+    <string name="print_page">Print page</string>
+    <string name="print_barcode">Print barcode</string>
+    <string name="read_card">Read card</string>
+    <string name="read_barcode">Read barcode</string>
+    <string name="title_please_wait">Por favor espere</string>
+    <string name="msg_failed_to_init">Failed to init printer</string>
+    <string name="msg_failed_to_connect">Failed to establish connection</string>
+    <string name="msg_connecting">Conectando con el dispositivo...</string>
+    <string name="msg_failed_to_print_self_test">Failed to print self test</string>
+    <string name="msg_printing_self_test">Printing self test&#8230;</string>
+    <string name="msg_failed_to_print_text">Failed to print text</string>
+    <string name="msg_printing_text">Printing text&#8230;</string>
+    <string name="msg_failed_to_print_image">Failed to print image</string>
+    <string name="msg_printing_image">Printing image&#8230;</string>
+    <string name="title_warning">Warning</string>
+    <string name="msg_unsupport_page_mode">Printer does not supports page mode</string>
+    <string name="msg_failed_to_print_page">Failed to print page</string>
+    <string name="msg_printing_page">Printing page&#8230;</string>
+    <string name="msg_failed_to_print_barcode">Failed to print barcode</string>
+    <string name="msg_printing_barcode">Printing barcode&#8230;</string>
+    <string name="msg_failed_to_read_card">Failed to read card</string>
+    <string name="card_no">Card#</string>
+    <string name="holder">Holder</string>
+    <string name="exp_date">Exp date</string>
+    <string name="no_card_read">No card information read</string>
+    <string name="card_info">Card information</string>
+    <string name="msg_reading_magstripe">Reading magnetic card&#8230;</string>
+    <string name="msg_failed_to_read_barcode">Failed to read barcode</string>
+    <string name="barcode">Barcode</string>
+    <string name="msg_reading_barcode">Reading barcode&#8230;</string>
+
+    <!--device_list-->
+    <string name="title_address">Dirección</string>
+    <string name="title_connect">Conectar</string>
+    <string name="title_bluetooth_disabled">Bluetooth esta deshabilitado</string>
+    <string name="title_scan">Buscar dipositivos</string>
+    <string name="title_select_device">Selecciona </string>
+    <string name="title_scanning">Buscando Dispositivos</string>
+
+    <!--referencias-->
+    <string name="title_referencias">Referencias del Cliente:</string>
+
+    <!--compras-->
+    <string name="title_compras">Compras del Cliente:</string>
+
+    <!--convenio-->
+    <string name="titleConvenio">Convenio Cobranza</string>
+    <string name="titleopcion1">Opción 1 : Pago = PM + 200 de Mora </string>
+    <string name="titleopcion2">Opción 2 : Pago = (PM x 2) + 300 de Mora</string>
+    <string name="BtAceptar">Aceptar </string>
+
+    <!--nueva_dir_alterna-->
+    <string name="menu_guardar">Guardar </string>
+    <string name="menu_regresar">Regresar </string>
+
+    <!--ComentarioAdd-->
+    <string-array name="array_Perspectivas">
+        <item>BUENA</item>
+        <item>MALA</item>
+        <item>INDEFINIDA</item>
+    </string-array>
+    <string-array name="array_ACCION_BUENA">
+        <item>PROMESA</item>
+        <item>CONVENIO</item>
+    </string-array>
+    <string-array name="array_ACCION_MALA">
+        <item>SE NIEGA A PAGAR</item>
+        <item>INCAPACIDAD DE PAGO</item>
+        <item>DECOMISO</item>
+        <item>FALLECIÓ</item>
+        <item>ILOCALIZABLE</item>
+    </string-array>
+    <string-array name="array_ACCION_INDEFINIDA">
+        <item>NO SE CONTACTÓ</item>
+        <item>CAMBIO DE DOMICILIO</item>
+    </string-array>
+
+    <!--historialenvios-->
+    <string name="menu_ver_comentario">VER COMENTARIO </string>
+    <string name="menu_ver_abono">VER ABONO </string>
+    <string name="menu_ver_decomisos">VER DECOMISOS </string>
+    <string name="menu_ver_convenio">VER CONVENIOS </string>
+
+    <!--ReimprimeDecomisos-->
+    <string name="textoReimprimeDecomisos">Reimpresión de Decomisos</string>
+    <string name="textoDatosCobrador">Datos del Cobrador</string>
+    <string name="textoCobrador">Cobrador:</string>
+    <string name="textoNombreCobrador">Nombre del Cobrador:</string>
+    <string name="textoDatosDecomiso">Datos Decomiso</string>
+    <string name="textoFechaDecomiso">Fecha de Decomiso:</string>
+    <string name="textoEmbarque">Embarque:</string>
+    <string name="textoClaveArt">Clave Art:</string>
+    <string name="textoNoSerie">No. Serie:</string>
+    <string name="textoFechaCompra">Fecha de Compra:</string>
+    <string name="textoTienda">Tienda:</string>
+    <string name="textoBodega">Bodega:</string>
+    <string name="textoArt">Artículo:</string>
+    <string name="textoDetalles">Detalles:</string>
+    <string name="textoReimprime">Reimprimir</string>
+
+    <!--CorteCajaV3-->
+    <string name="Texto_Fecha">Fecha:</string>
+    <string name="Texto_Total">Total:</string>
+
+    <!--DecomisaArt-->
+    <string name="textoDecomisar">Decomisar Artículos</string>
+    <string name="titleserie">Serie/IMEI</string>
+    <string name="buttonFoto">Foto</string>
+    <string name="buttonDecomisar">Decomisar</string>
+
+    <string name="title_ultgest">Últimas Gestiones</string>
+</resources>

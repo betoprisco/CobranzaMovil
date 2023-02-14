@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/comentario"
+        android:icon="@mipmap/pasteselected"
+        android:title="@string/menu_ver_comentario"/>
+    <item
+        android:id="@+id/abonos"
+        android:icon="@mipmap/pagos"
+        android:title="@string/menu_ver_abono"/>
+    <item
+        android:id="@+id/decomisos"
+        android:title="@string/menu_ver_decomisos"/>
+    <item
+        android:id="@+id/convenio"
+        android:title="@string/menu_ver_convenio"/>
+</menu>

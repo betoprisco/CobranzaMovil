@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/widget38"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/widget39"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pago Requerido:" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txt_PagoReq"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:text="EditText"
+            android:textSize="18sp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/widget43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monto a Pagar (Cuenta + Mora):"
+            android:visibility="visible" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txt_MontoPago"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:visibility="visible"
+            android:inputType="numberDecimal">"
+        </EditText>
+
+        <TextView
+            android:id="@+id/widget45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Folio Recibo:"
+            android:visibility="invisible" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvtitucon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convenio:" />
+
+        <TextView
+            android:id="@+id/tVconv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convenio" />
+
+        <TextView
+            android:id="@+id/tVconvenio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/txt_Folio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:visibility="invisible" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/chk_Mora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moratorio" >
+        </CheckBox>
+
+        <LinearLayout
+            android:id="@+id/ApoyoCOVID19Principal"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#79B7E7"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtApoyoCOVID19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APOYO COVID: "
+                android:textColor="#ff0000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtApoyoCOVID19_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poner al día mi cuenta con 0% de Moratorios, "
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/ApoyoCOVID19_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtApoyoCOVID19_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pagar al menos:  "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtApoyoCOVID19Monto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/chkApoyoCOVID19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Usar Promoción"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></CheckBox>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/lbl_Mora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A moratorio:"
+            android:visibility="invisible" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txt_Amora"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:textSize="18sp"
+            android:visibility="invisible" >
+        </EditText>
+
+
+        <Button
+            android:id="@+id/btn_modificaTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal|fill_vertical|top"
+            android:text="Modificar Teléfono" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_ProcAbono"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0.22"
+            android:background="#ff99ff99"
+            android:text="Procesar Abono" >
+        </Button>
+        <Button
+            android:id="@+id/btn_ProcAbonoTar"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0.22"
+            android:background="#bb00ff00"
+            android:text="Procesar Abono Tarjeta" >
+        </Button>
+        <TextView
+            android:id="@+id/tVpruebas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/comentario"
+        android:icon="@mipmap/pasteselected"
+        android:title="@string/menu_comentario"/>
+    <item
+        android:id="@+id/abonosEfect"
+        android:icon="@mipmap/pagos"
+        android:title="@string/menu_abono_efec"/>
+    <item
+        android:id="@+id/abonosTarj"
+        android:icon="@mipmap/pagos"
+        android:title="@string/menu_abono_tarj"/>
+    <item
+        android:id="@+id/irInicio"
+        android:icon="@mipmap/icon"
+        android:title="@string/menu_ir_inicio"/>
+    <item
+        android:id="@+id/imprimir"
+        android:icon="@mipmap/printer"
+        android:title="@string/menu_imprimir"/>
+</menu>

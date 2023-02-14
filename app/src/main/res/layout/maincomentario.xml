@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget38"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lbl_User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:visibility="invisible" >
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/widget32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cliente:" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_Custid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" >
+
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Lista_Accionxxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perspectiva:" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/Lista_Perspectiva"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </Spinner>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/widget36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Acción:" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/Lista_Accion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </Spinner>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lbl_Fecha"
+
+                    android:text="Fecha:" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/txt_FechaSeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:textSize="13sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/btn_Fecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="..." >
+                </Button>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lbl_Monto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Monto:    $" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/Txt_Monto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:freezesText="false"
+                    android:inputType="numberDecimal"
+                    android:textSize="13sp" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/widget45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tel:"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/txt_Tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="10"
+                    android:inputType="phone"
+                    android:textSize="14sp" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/widget47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email:" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/txt_Correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="textEmailAddress">
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lbl_Comentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comentario:" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/txt_Comentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="0.03"
+                    android:ems="10"
+                    android:enabled="true"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:maxLength="200"
+                    android:maxLines="5"
+                    android:scrollbars="vertical"
+                    android:textSize="14sp" >
+                </EditText>
+            </TableRow>
+
+            <Button
+                android:id="@+id/btn_modificaTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modificar Teléfono" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_AgregaComen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar" >
+            </Button>
+        </TableLayout>
+        <EditText
+            android:id="@+id/txt_Longitud"
+            android:layout_width="201px"
+            android:layout_height="60px"
+            android:textSize="12sp"
+            android:visibility="invisible" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txt_Latitud"
+            android:layout_width="201px"
+            android:layout_height="60px"
+            android:textSize="12sp"
+            android:visibility="invisible" >
+        </EditText>
+    </LinearLayout>
+</ScrollView>

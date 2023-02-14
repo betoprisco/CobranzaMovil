@@ -1,0 +1,534 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/text_color"
+    android:orientation="vertical"
+    tools:context=".Actividad_Letras" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <View
+                android:id="@+id/View02"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/blue2" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/blue2" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/text_color"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/ActividadLetras_Cliente"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/text_color"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:id="@+id/ActividadLetras_direccion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/back_color" />
+
+                <View
+                    android:id="@+id/View04"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textViewNombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_custid"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_Custid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                </TableRow>
+
+                <View
+                    android:id="@+id/View1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_LetrasV"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_saldo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                </TableRow>
+
+                <View
+                    android:id="@+id/View05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_LetrasT"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_saldoTotal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                </TableRow>
+
+                <View
+                    android:id="@+id/View06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_mora"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_moratorios"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+                </TableRow>
+
+                <View
+                    android:id="@+id/View07"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_letrasv"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_LetrasV"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+                </TableRow>
+
+                <View
+                    android:id="@+id/View09"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_periodos"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_Periodos"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+                </TableRow>
+
+                <View
+                    android:id="@+id/View08"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_UltPago"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_UltPago"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+                </TableRow>
+                <View
+                    android:id="@+id/View10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea" />
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_PagoRequerido"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_PagoRequerido"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color" />
+                </TableRow>
+
+                <!-- PARA MOSTRAR EL CAMPO "LIQUIDE CON" DEL CLIENTE - JAPP - 02-02-2016 - INICIO -->
+                <View
+                    android:id="@+id/ViewLiquide"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea"/>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoLiquide"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"/>
+
+                    <TextView
+                        android:id="@+id/ActividadLetras_Liquide"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/noInfo"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"/>
+                </TableRow>
+                <!-- PARA MOSTRAR EL CAMPO "LIQUIDE CON" DEL CLIENTE - JAPP - 02-02-2016 - FIN -->
+
+                <!-- PARA MOSTRAR LA ÚLTIMA GESTIÓN DEL CLIENTE - JAPP - 01-04-2016 - INICIO -->
+                <View
+                    android:id="@+id/ViewGestiones"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/linea"/>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/ultUsuarioAsig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoUltAsig"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ultUsuario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:text="@string/noInfo"/>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <!-- ACCIÓN -->
+                    <TextView
+                        android:id="@+id/action"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoPerspectiva"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/perspectiva"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/noInfo"
+                        android:textColor="@color/back_color"/>
+                </TableRow>
+
+                <!-- COMENTARIO -->
+                <TextView
+                    android:id="@+id/comentario"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textoComentario"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/back_color"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/historial"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/back_color"
+                    android:text="@string/noInfo"/>
+
+                <TableRow
+                    android:id="@+id/tableRow12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <!-- FECHA ACTUALIZACIÓN -->
+                    <TextView
+                        android:id="@+id/fechaUpd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoFechaUpd"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/fecha"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:text="@string/noInfo"/>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <!-- FECHA SEGUIMIENTO -->
+                    <TextView
+                        android:id="@+id/fechaSeg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoFechaSeg"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/fechaSeguimiento"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:text="@string/noInfo"/>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <!-- MONTO -->
+                    <TextView
+                        android:id="@+id/monto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoMonto"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/montoPago"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/back_color"
+                        android:text="@string/noInfo"/>
+                </TableRow>
+                <!-- PARA MOSTRAR LA ÚLTIMA GESTIÓN DEL CLIENTE - JAPP - 01-04-2016 - FIN -->
+
+            </TableLayout>
+
+            <View
+                android:id="@+id/View03"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/blue2" />
+
+            <Button
+                android:id="@+id/buttonVerGPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Ver Coordenadas" />
+
+            <Button
+                android:id="@+id/btn_ActividadLetras_btnLista"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="@string/texto_VerLetras"
+                android:textColor="#000000" />
+
+
+            <Button
+                android:id="@+id/btn_Convenio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_span="2"
+
+                android:text="@string/texto_Convenio"
+                android:textColor="#000000" />
+
+            <View
+                android:id="@+id/View01"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/blue2" />
+
+            <!-- PARA MOSTRAR LAS REFERENCIAS DEL CLIENTE - JAPP - 02-02-2016 -->
+
+            <Button
+                android:id="@+id/bt_VerReferencias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoVerReferencias"
+                android:textColor="#000000" />
+
+            <!-- PARA MOSTRAR LAS COMPRAS DEL CLIENTE - JAPP - 25-02-2016 -->
+
+            <Button
+                android:id="@+id/bt_VerCompras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoVerCompras"
+                android:textColor="#000000" />
+
+            <!-- PARA IMPRIMIR EL AVISO DEL CLIENTE - JAPP - 05-02-2016 -->
+
+            <Button
+                android:id="@+id/bt_ImprimirAviso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoImprimirAviso"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/bt_VerDir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver Domicilio Alterno"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/bt_agregaDir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modificar Domicilio Alterno"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

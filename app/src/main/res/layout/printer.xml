@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dip"
+        android:background="@color/header_color">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/help"
+            android:layout_weight="0"
+            android:id="@+id/icon" android:contentDescription="TODO"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/text_color"
+            android:id="@+id/name"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="10dip">
+
+            <Button
+                android:id="@+id/print_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/text"
+                android:text="@string/print_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/print_self_test"
+                android:drawableLeft="@mipmap/selftest"
+                android:text="@string/print_self_test" android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/print_image"
+                android:drawableLeft="@mipmap/image"
+                android:text="@string/print_image" android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/print_page"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/page"
+                android:text="@string/print_page"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/print_barcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/barcode"
+                android:text="@string/print_barcode"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/read_card"
+                android:drawableLeft="@mipmap/card"
+                android:text="@string/read_card" android:visibility="invisible"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/read_barcode"
+                android:drawableLeft="@mipmap/readbarcode"
+                android:text="@string/read_barcode" android:visibility="invisible"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
