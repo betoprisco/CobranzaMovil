@@ -235,7 +235,7 @@ public class MiClase {
             }
         }
 
-        if( !conve.equals("NO") )
+        if( !conve.equals("NO") && !conve.equals("INVALIDO"))
             banderita = true;
 
         //PARA QUE BUSQUE EL CONVENIO EN LA TABLA DE CONVENIOS CON EL ID DEL COBRADOR- JAPP - 12-09-2017

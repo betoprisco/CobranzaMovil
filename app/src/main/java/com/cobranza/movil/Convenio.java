@@ -117,7 +117,7 @@ public class Convenio extends Activity {
                 }
             } catch (Exception e) {
                 message("ERROR", "A ocurrido un error al guardar el convenio. Intente" +
-                        " nuevamente o contacte a sistemas 01-800-581-90-98", DIALOGO_ALERTA);
+                        " nuevamente o contacte a sistemas 800-581-90-98", DIALOGO_ALERTA);
             }
 
         }
