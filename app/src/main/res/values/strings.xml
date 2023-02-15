@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Cobranza Móvil 2.9.3 - JAPP</string>
-    <string name="app_version">2.9.2.1 - JAPP</string>
+    <string name="app_version">2.9.3 - JAPP</string>
     <string name="login_imagen">Logotipo EyMAS </string>
     <string name="login_usuario">Usuario: </string>
     <string name="login_password">Contraseña:</string>
