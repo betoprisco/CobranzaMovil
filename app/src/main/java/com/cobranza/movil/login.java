@@ -51,7 +51,7 @@ public class login extends Activity {
     private final int REQUEST_PERMISSION_WRITE_EXTERNAL_STORAGE=1;
 
     //PARA REVISAR SI TIENE ACTIVADO EL PERMISO DE ACCEDER A LA UBICACIÓN - JAPP - 05-09-2018
-    private void showPhoneStatePermission() {
+    /*private void showPhoneStatePermission() {
         int permissionCheck = ContextCompat.checkSelfPermission(
                 this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
         if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
@@ -89,7 +89,7 @@ public class login extends Activity {
             Toast.makeText(login.this, "Permiso para imprimir concedido",
                     Toast.LENGTH_SHORT).show();
         }
-    }*/
+    }
 
     private void showExplanation(String title,
                                  String message,
@@ -110,6 +110,7 @@ public class login extends Activity {
         ActivityCompat.requestPermissions(this,
                 new String[]{permissionName}, permissionRequestCode);
     }
+
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
@@ -147,7 +148,7 @@ public class login extends Activity {
             }
         }
     }
-
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
@@ -171,7 +172,7 @@ public class login extends Activity {
         texto.setText(AndroidVersion);*/
 
         //SE REVISA EL PERMISO DE ESCRITURA EN EL ALMACENAMIENTO DEL TELÉFONO - JAPP - 12-10-2018
-        showPhoneStatePermission();
+        //showPhoneStatePermission();
 
         //SE REVISA EL PERMISO DE DISPOSITIVOS CERCANOS - JAPP - 05-01-2023
         /*if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S){
