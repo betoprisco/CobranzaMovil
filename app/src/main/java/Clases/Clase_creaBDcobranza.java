@@ -117,7 +117,7 @@ public class Clase_creaBDcobranza extends SQLiteOpenHelper {
         db.execSQL(Tablas);
 
         //PARA QUE NO MANDE EL MENSAJE DE INSTALACIÓN, PARA QUE SE MANDE QUE ESTÉ EN 0
-        db.execSQL("Insert into Creacion(Nuevo) values('1') ");
+        db.execSQL("Insert into Creacion(Nuevo) values('0') ");
 
 
         Tablas = "Create Table convenio  (Custid CHAR,"
